@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #d5c0e0;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-item {
+  display: inline-block;
+  width: 100%;
+  border-radius: 25px;
+}
+
+/*configuracion de NabVar
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #9933cc;
+  color: #ffffff;
+  border-radius: 25px;
+}
+
+li a {
+  display: block;
+  background-color: #33b5e5;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(15, 110, 243);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgb(0, 255, 81), 0 17px 50px 0 rgb(42, 208, 39);
+}
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+/*narvar top */
+.navUlTop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9933cc;
+  color: #ffffff;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+}
+.navLiTop {
+  display: inline;
+  word-wrap: break-word;
+}
+.NavA {
+  display: inline-block;
+  width: 20%;
+  border-radius: 25px;
+  border: solid 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-option {
+  display: grid;
+  grid-template-columns: 16% auto;
+  border: solid 2px;
+}
+.grid-item-option {
+  border: solid 3px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&ButtonNav&&&&&&&&&&&&&&*/
+.ButtonNav {
+  background-color: #0091ff; /* Green */
+  border: solid 2px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 25px;
+}
+.ButtonNav:hover {
+  box-shadow: 0 12px 16px 0 rgb(0, 255, 81), 0 17px 50px 0 rgb(42, 208, 39);
+  color: white;
+  background-color: rgb(15, 110, 243);
+}
