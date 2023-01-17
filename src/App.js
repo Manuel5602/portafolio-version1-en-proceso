@@ -8,7 +8,7 @@ function App() {
         <div className="grid-item">
           <NavBarTop />
         </div>
-        <div className="grid-item">
+        <div className="grid-item-main">
           <NavBar />
         </div>
       </div>
